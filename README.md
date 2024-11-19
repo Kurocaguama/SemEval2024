@@ -9,7 +9,7 @@ Regarding Sentence Transformers [here (Official Documentation)](https://sbert.ne
 
 
 If you want to cite this paper please use the following:
-
+```
 @inproceedings{lopez-ponce-etal-2024-gil,
     title = "{GIL}-{IIMAS} {UNAM} at {S}em{E}val-2024 Task 1: {SAND}: An In Depth Analysis of Semantic Relatedness Using Regression and Similarity Characteristics",
     author = "Lopez-ponce, Francisco  and
@@ -33,3 +33,4 @@ If you want to cite this paper please use the following:
     pages = "1288--1292",
     abstract = "The STR shared task aims at detecting the degree of semantic relatedness between sentence pairs in multiple languages. Semantic relatedness relies on elements such as topic similarity, point of view agreement, entailment, and even human intuition, making it a broader field than sentence similarity. The GIL-IIMAS UNAM team proposes a model based in the SAND characteristics composition (Sentence Transformers, AnglE Embeddings, N-grams, Sentence Length Difference coefficient) and classical regression algorithms. This model achieves a 0.83 Spearman Correlation score in the English test, and a 0.73 in the Spanish counterpart, finishing just above the SemEval baseline in English, and second place in Spanish.",
 }
+```
